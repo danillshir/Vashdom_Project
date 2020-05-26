@@ -8,6 +8,7 @@ namespace Vashdom_Project
 {
     static class Program
     {
+        public static Vashdom_ProjectEntities4 wftDb = new Vashdom_ProjectEntities4();
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
@@ -16,7 +17,7 @@ namespace Vashdom_Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormAuthorization());
         }
     }
 }
